@@ -1,0 +1,64 @@
+body {
+    background: linear-gradient(#f9ce34, #ee2a7b, #6228d7);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+.card{
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    width: 500px;
+    height:500px;
+
+}
+.header{
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+input-group{
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+.input-group.btn-add{
+    background: #4caf50;
+    color: #fff;
+    width: 50px;
+    height: 30px;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: background 0.3s ease;
+}
+.btn-add{
+    background-color: #4CAF50; /* Professional green color */
+  color: white;
+  cursor: pointer;
+  border: none;
+  padding: 15px 10px; /* Comfortable button padding */
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Add transform transition */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Slight shadow for prominence */
+  font-size: 10px; /* Increase font size for the button */
+  margin-left: 9%; /* Adjust margin to align with input field */
+
+}
+.add-btn:hover {
+    background-color: #45a049; /* Darker green on hover */
+    transform: scale(1.05); /* Slightly enlarge button on hover */
+  }
